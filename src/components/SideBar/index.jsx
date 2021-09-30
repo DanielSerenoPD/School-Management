@@ -1,7 +1,7 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import {items} from './Data'
-import {Container, ProfileContainer, Avatar, Wrapper, Menu, MenuItem, TitleItem} from './elements';
+import {Container, ProfileContainer, Avatar, Wrapper, Menu, MenuItem, TitleItem,NavLink} from './elements';
 import Profile from './resources/profile.jpg'
 const SideBar = () => {
     return (
