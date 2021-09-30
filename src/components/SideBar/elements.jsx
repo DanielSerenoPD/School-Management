@@ -6,10 +6,10 @@ export const Container = styled.div`
   position: fixed;
   top:10px;
   left: 10px;
-  width: 300px;
+  width: 265px;
   height: 96.5%;
   background-color: #23394d;
-  border-radius: 6%;
+  border-radius: 2rem;
 `;
 export const ProfileContainer = styled.div`
   display: flex;
@@ -19,8 +19,8 @@ export const ProfileContainer = styled.div`
   margin-bottom: 30px;
 `
 export const Avatar = styled.div`
-  height: 180px;
-  width: 60%;
+  height: 140px;
+  width: 50%;
   border-radius: 6rem;
   margin-top: 7%;
   background-image: url(${({url})=>url});
@@ -45,10 +45,10 @@ export const Menu = styled.ul`
 `;
 export const MenuItem = styled.li`
   width:100%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
   color: #e4e4e4;
   cursor: pointer;
@@ -56,12 +56,12 @@ export const MenuItem = styled.li`
     background-color: #0503036a;
   }
   svg {
-    font-size: 2.1rem;
+    font-size: 1.4rem;
     margin-top: 3%;
     margin-bottom: 3%;
   }
 `;
 export const TitleItem = styled.span`
   color: white;
-  font-size: 20px;
+  font-size: 17px;
 `;
