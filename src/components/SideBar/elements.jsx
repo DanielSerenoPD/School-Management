@@ -7,9 +7,9 @@ export const Container = styled.div`
   position: fixed;
   top:10px;
   left: 10px;
-  width: 265px;
+  width: 20%;
   height: 96.5%;
-  background-color: #23394d;
+  background-color: ${({theme})=>theme};
   border-radius: 2rem;
 `;
 export const ProfileContainer = styled.div`

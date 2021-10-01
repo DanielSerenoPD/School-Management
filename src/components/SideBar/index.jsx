@@ -1,11 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import {items} from './Data'
 import {Container, ProfileContainer, Avatar, Wrapper, Menu, MenuItem, TitleItem,NavLink} from './elements';
-import Profile from './resources/profile.jpg'
+import Profile from './resources/profile.jpg';
+import {theme} from '../../utils';
 const SideBar = () => {
     return (
-          <Container> 
+          <Container theme = {theme}> 
               <Wrapper>
               <ProfileContainer>
               <Avatar url = {Profile}/>
