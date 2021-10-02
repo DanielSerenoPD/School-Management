@@ -20,7 +20,7 @@ export const CheckBoxLabel = styled.label`
   justify-content:center;
   border-radius: 1.4em;
   width: 160px;
-  height: 30px;
+  height: 40px;
   margin: 3px;
   background-color:${({theme})=>theme};
   box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
@@ -38,7 +38,7 @@ export const CheckBox = styled.input`
       align-items: center;
       justify-content:center;
       border-radius: 1.4em;
-      height: 30px;
+      height: 40px;
       margin-left: 46%;
       transition: 0.2s;
     }
@@ -47,7 +47,7 @@ export const CheckBox = styled.input`
 export const Titles = styled.div`
   display: flex;
   margin: auto;
-  padding-top:3%;
+  padding-top:5%;
   width: 97%;
   justify-content: space-between;
 `

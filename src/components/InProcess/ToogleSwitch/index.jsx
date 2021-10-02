@@ -1,5 +1,5 @@
 import React from 'react';
-import {CheckBoxWrapper, CheckBox, CheckBoxLabel,Titles, Title} from './Components.jsx';
+import {CheckBoxWrapper, CheckBox, CheckBoxLabel,Titles, Title} from './Elements.jsx';
 import {THEME} from '../../utils/Colors.jsx';
 export default function ToogleSwitch(){
     return(

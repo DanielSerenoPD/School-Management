@@ -1,8 +1,8 @@
 import React from 'react';
-import {Container,Button} from '../../utils/Components.jsx';
+import {Container} from '../utils/Elements.jsx';
 import {ContainerSwitch} from './Elements.jsx';
-import {THEME} from '../../utils/Colors.jsx';
-import ToogleSwitch from '../ToogleSwitch';
+import ToogleSwitch from './ToogleSwitch';
+import Card from './Card';
 
 export default function InProcess(){
     return(
@@ -10,6 +10,7 @@ export default function InProcess(){
         <ContainerSwitch>
         <ToogleSwitch options={["Currently Enrolled","School Timetable"]}/>
         </ContainerSwitch>
+        <Card/>
        </Container>
     );
 }

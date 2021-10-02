@@ -1,7 +1,7 @@
 import React from 'react';
-import {Container} from '../../utils/Components.jsx';
+import {Container} from '../utils/Elements.jsx';
 import {ContainerTitle, Title, Text} from './Elements';
-import {THEME_FADED} from '../../utils/Colors.jsx';
+import {THEME_FADED} from '../utils/Colors.jsx';
 
 const Home = () => {
     return (
