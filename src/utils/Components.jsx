@@ -12,12 +12,12 @@ export const Button = styled.button`
   text-decoration: none;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   display: inline-block;
-  color: #fff;
-  background: ${({backgroundColor})=>backgroundColor};
-  box-shadow: 0px 5px 0px 0px ${({shadowColor})=>shadowColor};;
+  color: ${({hide})=>hide ? 'black':'white'};
+  background-color: ${({backgroundColor})=>backgroundColor};
   padding: 7px 20px;
   white-space: nowrap;
   border-radius: 100px;
-  margin: 10px 5px;
+  margin: 10px 2px;
   transition: all 0.2s ease-in-out;
+  background: ${({hide})=>hide ? 'transparent':null}
 `
