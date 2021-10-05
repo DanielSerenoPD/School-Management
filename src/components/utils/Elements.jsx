@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: ${({direction})=>direction[0]};
+  justify-content: ${({direction})=>direction[1]};
+  align-items: ${({direction})=>direction[2]};
   margin-left: 20.7%;
   width: 79.3%;
   height: 100%;
