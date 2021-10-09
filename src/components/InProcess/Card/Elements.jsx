@@ -2,8 +2,8 @@ import styled from 'styled-components'
 import {THEME} from '../../utils/Colors.jsx'
 export const ContainerCard = styled.div`
   text-align: center;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25),
-    -2px -2px 2px 1px rgba(0, 0, 0, 0.22);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.27),
+    -2px -2px 2px 1px rgba(0, 0, 0, 0.24);
   cursor: pointer;
   border-top: solid 4px;
   border-color: #50eb12ac;
